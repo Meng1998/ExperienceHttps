@@ -1,0 +1,45 @@
+{
+  "method": "OnEventNotify",
+  "params": {
+    "ability": "event_ias",
+    "events": [
+      {
+        "data": {
+          "cardId": "",
+          "eventName": "浙-西-生07B指011_ 防区报警",
+          "eventTypeName": "防区报警",
+          "handleStatus": 2,
+          "linkInfo": {
+            "linkPlayRealCameraIdx": "19b2063221ff40e4a7f75d23ee729119,7017b36e49584ed4a230f04dc3ebf10e",
+            "linkPlayBackCameraIdx": "19b2063221ff40e4a7f75d23ee729119,7017b36e49584ed4a230f04dc3ebf10e",
+            "linkUser": [
+              {
+                "userId": "admin",
+                "userRealName": "Administrator"
+              },
+              {
+                "userId": "rjq",
+                "userRealName": "入监区"
+              },
+              {
+                "userId": "zhzx",
+                "userRealName": "指挥中心"
+              }
+            ]
+          },
+          "userData": {}
+        },
+        "eventId": "bc541c0cb3334392900787ca20fd6a45",
+        "eventLvl": 2,
+        "eventType": 327681,
+        "happenTime": "2021-08-18T15:48:04.152+08:00",
+        "srcIndex": "7347f1a948f34c2daa875bb6b37a6dee",
+        "srcName": "浙-西- 生07B指011",
+        "srcType": "defence",
+        "status": 2,
+        "timeout": 30
+      }
+    ],
+    "sendTime": "2021-08-18T15:52:34.443+08:00"
+  }
+}
