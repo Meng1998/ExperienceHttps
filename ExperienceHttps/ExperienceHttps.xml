@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExperienceHttps</name>
+    </assembly>
+    <members>
+        <member name="M:ExperienceHttps.Controllers.NSLY.Doorstatuc(ExperienceHttps.Model.Mod)">
+            <summary>
+            设备结构详情
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.NSLY.peopleTotal">
+            <summary>
+            客流统计
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.NSLY.vehicleTotal">
+            <summary>
+            车流统计
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.XJDJstatuc(System.String)">
+            <summary>
+            对讲状态
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.Doorstatuc(System.String)">
+            <summary>
+            门禁状态
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.AlarmSubmit(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            报警提交
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.Alarmsimula(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            模拟报警
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.GetNameList(System.String)">
+            <summary>
+            人员定位根据名称查询
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.GetRegionlocation(System.Int32)">
+            <summary>
+            人员定位根据区域id查人员计总
+            </summary>
+            <param id="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.PrisonPeoplerookList">
+            <summary>
+            监内人车数量分布
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.PrisonKeycriminalList">
+            <summary>
+            重点罪犯数量分布
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.PrisonSituation">
+            <summary>
+            监狱态势
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.PrisonvehicleRecord">
+            <summary>
+            车辆/人员进出记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.AlarmrunList">
+            <summary>
+            报警统计管理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Controllers.XJ.systemToken(System.String)">
+            <summary>
+            Token鉴权回传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.C.Http.RyDJ.RyGetname(System.String)">
+            <summary>
+            姓名查找
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.C.Http.RyDJ.Rylocation(System.Int32)">
+            <summary>
+            获取区域人数计总
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.C.Http.RyDJ.DJstatuc(System.String)">
+            <summary>
+            获取对讲设备状态
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Sra.Encryption.CreateToken(System.String,System.String)">
+            <summary>
+            HMACSHA256 =》 Base64
+            </summary>
+            <param name="message">内容</param>
+            <param name="secret">秘钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Sra.Encryption.InitRestart">
+            <summary>
+            设置程序重启
+            </summary>
+        </member>
+        <member name="M:ExperienceHttps.Sra.Encryption.Restart(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            重启自己
+            </summary>
+        </member>
+        <member name="M:ExperienceHttps.Sra.Encryption.CreateBase64(System.String)">
+            <summary>
+            Base64
+            </summary>
+            <param name="message">内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExperienceHttps.Sra.Encryption.MD5Encrypt(System.String)">
+            <summary>
+            用MD5加密字符串
+            </summary>
+            <param name="password">待加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="P:ExperienceHttps.Model.ApiResult.Data">
+            <summary>
+            服务器回应消息提示
+            </summary>
+        </member>
+        <member name="P:ExperienceHttps.Model.ApiResultString.Data">
+            <summary>
+            服务器回应消息提示
+            </summary>
+        </member>
+    </members>
+</doc>
